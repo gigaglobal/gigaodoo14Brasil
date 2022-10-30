@@ -22,7 +22,6 @@ def read(*names, **kwargs):
     ) as fh:
         return fh.read()
 
-
 setup(
     name='erpbrasil.assinatura',
     version='1.5.0',
