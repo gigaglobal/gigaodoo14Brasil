@@ -41,3 +41,4 @@
         "python": ["num2words", "erpbrasil.base", "phonenumbers", "email_validator"]
     },
 }
+
