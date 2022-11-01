@@ -346,13 +346,14 @@ class AccountMove(models.Model):
         total_produtos = total_servicos = 0.0
         bruto_produtos = bruto_servicos = 0.0
         total_desconto = 0
+
         for inv_line in invoice_lines:
             total_desconto += round(inv_line.price_unit * inv_line.quantity * inv_line.discount / 100, 2)
             if inv_line.product_id.type == 'service':
-                total_servicos += inv_line.price_subtotal
+                total_servicos += inv_line.price_total
                 bruto_servicos += round(inv_line.quantity * inv_line.price_unit, 2)
             else:
-                total_produtos += inv_line.price_subtotal
+                total_produtos += inv_line.price_total
                 bruto_produtos += round(inv_line.quantity * inv_line.price_unit, 2)
 
         vals.update({
@@ -360,8 +361,7 @@ class AccountMove(models.Model):
             'valor_servicos': total_servicos,
             'valor_produtos': total_produtos,
             'valor_desconto': total_desconto,
-            'valor_final': total_produtos + total_servicos + vals['valor_frete'] + vals['valor_seguro'] +
-                           vals['valor_despesas'],
+            'valor_final': invoice.amount_total,
         })
 
         # Transportadora
@@ -472,10 +472,10 @@ class AccountMove(models.Model):
 
     def action_view_edocs(self):
         if self.total_edocs == 1:
-            dummy, act_id = self.env['ir.model.data']._xmlid_to_res_model_res_id(
-                'l10n_br_eletronic_document.action_view_eletronic_document')
-            dummy, view_id = self.env['ir.model.data']._xmlid_to_res_model_res_id(
-                'l10n_br_eletronic_document.view_eletronic_document_form')
+            dummy, act_id = self.env['ir.model.data'].get_object_reference(
+                'l10n_br_eletronic_document', 'action_view_eletronic_document')
+            dummy, view_id = self.env['ir.model.data'].get_object_reference(
+                'l10n_br_eletronic_document', 'view_eletronic_document_form')
             vals = self.env['ir.actions.act_window'].browse(act_id).read()[0]
             vals['view_id'] = (view_id, 'sped.eletronic.doc.form')
             vals['views'][1] = (view_id, 'form')
@@ -485,8 +485,8 @@ class AccountMove(models.Model):
             vals['res_id'] = edoc.id
             return vals
         else:
-            dummy, act_id = self.env['ir.model.data']._xmlid_to_res_model_res_id(
-                'l10n_br_eletronic_document.action_view_eletronic_document')
+            dummy, act_id = self.env['ir.model.data'].get_object_reference(
+                'l10n_br_eletronic_document', 'action_view_eletronic_document')
             vals = self.env['ir.actions.act_window'].browse(act_id).read()[0]
             vals['domain'] = [('move_id', '=', self.id)]
             return vals
@@ -519,6 +519,7 @@ class AccountMoveLine(models.Model):
 
         fiscal_pos = self.move_id.fiscal_position_id
 
+
         vals = {
             'name': self.name,
             'product_id': self.product_id.id,
@@ -530,7 +531,7 @@ class AccountMoveLine(models.Model):
             'quantidade': self.quantity,
             'preco_unitario': self.price_unit,
             'valor_bruto': round(self.quantity * self.price_unit, 2),
-            'desconto': round(self.quantity * self.price_unit, 2) - self.price_subtotal,
+            'desconto': round(self.quantity * self.price_unit, 2) - self.price_total,
             'valor_liquido': self.price_total,
             'origem': self.product_id.l10n_br_origin,
             #  'tributos_estimados': self.tributos_estimados,
