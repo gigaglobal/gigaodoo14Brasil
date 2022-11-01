@@ -39,3 +39,4 @@
         'wizard/wizard_new_payment.xml',
     ],
 }
+
