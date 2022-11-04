@@ -1,0 +1,12 @@
+pip install num2words
+pip install erpbrasil.base
+pip install phonenumbers
+pip install email_validator
+
+Instalar l10n_br_base
+
+Configurar la direccion de la empresa
+configurar Inscrição Municipal:  6231942 
+
+pip install erpbrasil.base
+pip install erpbrasil.assinatura

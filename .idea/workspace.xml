@@ -1,6 +1,298 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e80c7d95-5ca3-4a57-8d02-4bc5af19fcf0" name="Changes" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/README.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/__manifest__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/constants/fiscal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/constants/icms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/constants/ipi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/constants/issqn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/constants/mdfe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/constants/pis_cofins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/ir_cron.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal.cest.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal.cfop.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal.cnae.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal.cst.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal.document.type.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal.icms.relief.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal.nbm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal.nbs.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal.ncm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal.product.genre.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal.service.type.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal.tax.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal.tax.group.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal.tax.ipi.control.seal.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal.tax.ipi.guideline.class.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal.tax.ipi.guideline.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal.tax.pis.cofins.base.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal.tax.pis.cofins.credit.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal.tax.pis.cofins.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal_cfop_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal_comment_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal_email_template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal_icms_tax_definition_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal_server_action.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/l10n_br_fiscal_tax_icms_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/operation_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/partner_profile_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/product_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/res_partner_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/simplified_tax_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/data/uom_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/city_taxation_code_demo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/company_demo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/fiscal_document_demo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/fiscal_document_nfse_demo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/fiscal_operation_demo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/icms_tax_definition_demo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/l10n_br_fiscal.cest-demo.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/l10n_br_fiscal.nbm-demo.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/l10n_br_fiscal.nbs-demo.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/l10n_br_fiscal.ncm-demo.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/l10n_br_fiscal_document_email.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/partner_demo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/product_demo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/res_users_demo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/subsequent_operation_demo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/hooks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/i18n/l10n_br_fiscal.pot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/i18n/pt_BR.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/migrations/14.0.9.0.0/pre-migration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/certificate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/cest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/cfop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/city_taxation_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/cnae.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/comment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/cst.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/data_abstract.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/data_ncm_nbs_abstract.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/data_product_abstract.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/dfe/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/dfe/dfe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/document.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/document_eletronic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/document_email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/document_event.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/document_fiscal_invoice_mixin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/document_fiscal_line_mixin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/document_fiscal_line_mixin_methods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/document_fiscal_mixin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/document_fiscal_mixin_methods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/document_line.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/document_related.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/document_serie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/document_type.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/document_workflow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/ibpt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/icms_regulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/icms_relief.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/invalidate_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/mdfe/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/mdfe/mdfe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/nbm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/nbs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/ncm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/ncm_cest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/ncm_nbm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/ncm_tax_pis_cofins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/operation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/operation_dashboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/operation_document_type.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/operation_line.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/partner_profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/product_genre.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/product_mixin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/product_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/product_template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/res_company.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/res_config_settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/res_country_state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/res_partner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/service_type.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/simplified_tax.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/simplified_tax_range.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/subsequent_document.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/subsequent_operation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/tax.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/tax_definition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/tax_definition_cfop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/tax_definition_company.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/tax_definition_icms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/tax_definition_operation_line.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/tax_definition_partner_profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/tax_estimate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/tax_group.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/tax_ipi_control_seal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/tax_ipi_guideline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/tax_ipi_guideline_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/tax_pis_cofins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/tax_pis_cofins_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/tax_pis_cofins_credit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/uom_uom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/models/uom_uom_alternative.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/readme/CONFIGURE.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/readme/CONTRIBUTORS.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/readme/DESCRIPTION.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/readme/HISTORY.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/readme/INSTALL.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/readme/ROADMAP.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/readme/USAGE.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/security/fiscal_security.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/security/ir.model.access.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/static/description/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/static/description/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/static/img/fiscal_dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/static/img/fiscal_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/static/img/fiscal_operation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/static/img/fiscal_total.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/tests/test_certificate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/tests/test_cnae.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/tests/test_fiscal_document_generic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/tests/test_fiscal_document_nfse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/tests/test_fiscal_tax.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/tests/test_ibpt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/tests/test_ibpt_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/tests/test_ibpt_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/tests/test_icms_regulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/tests/test_partner_profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/tests/test_service_type.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/tests/test_subsequent_operation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/tests/test_uom_uom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/tests/test_workflow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/tools/misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/certificate_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/cest_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/cfop_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/city_taxation_code.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/cnae_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/comment_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/cst_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/dfe/dfe_views.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/document_email_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/document_event_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/document_fiscal_line_mixin_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/document_line_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/document_related_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/document_serie_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/document_type_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/document_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/icms_regulation_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/icms_relief_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/invalidate_number_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/l10n_br_fiscal_action.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/l10n_br_fiscal_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/mdfe/mdfe_views.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/nbm_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/nbs_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/ncm_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/operation_dashboard_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/operation_line_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/operation_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/partner_profile_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/product_genre_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/product_product_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/product_template_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/res_company_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/res_config_settings_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/res_partner_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/service_type_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/simplified_tax_range_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/simplified_tax_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/subsequent_document_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/subsequent_operation_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/tax_definition_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/tax_estimate_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/tax_group_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/tax_ipi_control_seal_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/tax_ipi_guideline_class_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/tax_ipi_guideline_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/tax_pis_cofins_base_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/tax_pis_cofins_credit_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/tax_pis_cofins_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/tax_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/views/uom_uom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/wizards/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/wizards/base_wizard_mixin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/wizards/document_cancel_wizard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/wizards/document_cancel_wizard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/wizards/document_correction_wizard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/wizards/document_correction_wizard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/wizards/document_status_wizard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/wizards/document_status_wizard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/wizards/invalidate_number_wizard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/l10n_br_fiscal/wizards/invalidate_number_wizard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requisitos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2H5dk9cBHhBcj0uVhx8QGLPvB9Z" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="C:/D/Trabajo/Web/Desarrollo/OdooFiscal" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\D\Trabajo\Web\Desarrollo\OdooFiscal" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e80c7d95-5ca3-4a57-8d02-4bc5af19fcf0" name="Changes" comment="" />
+      <created>1667579018757</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667579018757</updated>
+    </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1667579199967</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667579199967</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
 </project>
