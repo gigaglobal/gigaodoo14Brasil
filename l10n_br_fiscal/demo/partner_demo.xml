@@ -2,221 +2,221 @@
 <!-- pylint:disable=file-not-used -->
 <odoo noupdate="1">
 
-    <!-- Resource: res.partner -->
-    <!-- ASUSTeK -->
-    <record id="base.res_partner_1" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_ncn"
-        />
-    </record>
+<!--    &lt;!&ndash; Resource: res.partner &ndash;&gt;-->
+<!--    &lt;!&ndash; ASUSTeK &ndash;&gt;-->
+<!--    <record id="base.res_partner_1" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_ncn"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- Agrolait -->
-    <record id="base.res_partner_2" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_ncn"
-        />
-    </record>
+<!--    &lt;!&ndash; Agrolait &ndash;&gt;-->
+<!--    <record id="base.res_partner_2" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_ncn"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- China Export -->
-    <record id="base.res_partner_3" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_ncn"
-        />
-    </record>
+<!--    &lt;!&ndash; China Export &ndash;&gt;-->
+<!--    <record id="base.res_partner_3" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_ncn"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- Delta PC -->
-    <record id="base.res_partner_4" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_ncn"
-        />
-    </record>
+<!--    &lt;!&ndash; Delta PC &ndash;&gt;-->
+<!--    <record id="base.res_partner_4" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_ncn"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- The Jackson Group -->
-    <record id="base.res_partner_10" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_ncn"
-        />
-    </record>
+<!--    &lt;!&ndash; The Jackson Group &ndash;&gt;-->
+<!--    <record id="base.res_partner_10" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_ncn"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- Camptocamp -->
-    <record id="base.res_partner_12" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_ncn"
-        />
-    </record>
+<!--    &lt;!&ndash; Camptocamp &ndash;&gt;-->
+<!--    <record id="base.res_partner_12" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_ncn"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- Think Big Systems -->
-    <record id="base.res_partner_18" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_ncn"
-        />
-    </record>
+<!--    &lt;!&ndash; Think Big Systems &ndash;&gt;-->
+<!--    <record id="base.res_partner_18" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_ncn"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!--  Intel do Brasil -->
-    <record id="l10n_br_base.res_partner_intel" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_cnt"
-        />
-    </record>
+<!--    &lt;!&ndash;  Intel do Brasil &ndash;&gt;-->
+<!--    <record id="l10n_br_base.res_partner_intel" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_cnt"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- AMD do Brasil -->
-    <record id="l10n_br_base.res_partner_amd" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_cnt"
-        />
-    </record>
+<!--    &lt;!&ndash; AMD do Brasil &ndash;&gt;-->
+<!--    <record id="l10n_br_base.res_partner_amd" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_cnt"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- LG do Brasil -->
-    <record id="l10n_br_base.res_partner_lg" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_cnt"
-        />
-    </record>
+<!--    &lt;!&ndash; LG do Brasil &ndash;&gt;-->
+<!--    <record id="l10n_br_base.res_partner_lg" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_cnt"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- Samsung Recife -->
-    <record id="l10n_br_base.res_partner_samsungpe" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_cnt"
-        />
-    </record>
+<!--    &lt;!&ndash; Samsung Recife &ndash;&gt;-->
+<!--    <record id="l10n_br_base.res_partner_samsungpe" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_cnt"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- Positivo Informatica -->
-    <record id="l10n_br_base.res_partner_positivo" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_cnt"
-        />
-    </record>
+<!--    &lt;!&ndash; Positivo Informatica &ndash;&gt;-->
+<!--    <record id="l10n_br_base.res_partner_positivo" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_cnt"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- Dell Computadores do Brasil -->
-    <record id="l10n_br_base.res_partner_dell" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_cnt"
-        />
-    </record>
+<!--    &lt;!&ndash; Dell Computadores do Brasil &ndash;&gt;-->
+<!--    <record id="l10n_br_base.res_partner_dell" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_cnt"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- Info Bahia -->
-    <record id="l10n_br_base.res_partner_infobahia" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_cnt"
-        />
-    </record>
+<!--    &lt;!&ndash; Info Bahia &ndash;&gt;-->
+<!--    <record id="l10n_br_base.res_partner_infobahia" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_cnt"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- Informatica Manaus -->
-    <record id="l10n_br_base.res_partner_infomanaus" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_cnt"
-        />
-    </record>
+<!--    &lt;!&ndash; Informatica Manaus &ndash;&gt;-->
+<!--    <record id="l10n_br_base.res_partner_infomanaus" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_cnt"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- Cliente 1 SP Contribuinte -->
-    <record id="l10n_br_base.res_partner_cliente1_sp" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_cnt"
-        />
-    </record>
+<!--    &lt;!&ndash; Cliente 1 SP Contribuinte &ndash;&gt;-->
+<!--    <record id="l10n_br_base.res_partner_cliente1_sp" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_cnt"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- Cliente 2 -SP - Simples Nacional -->
-    <record id="l10n_br_base.res_partner_cliente2_sp" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_snc"
-        />
-    </record>
+<!--    &lt;!&ndash; Cliente 2 -SP - Simples Nacional &ndash;&gt;-->
+<!--    <record id="l10n_br_base.res_partner_cliente2_sp" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_snc"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- Cliente 3 - Z/F Manaus - Contribuinte -->
-    <record id="l10n_br_base.res_partner_cliente3_am" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_cnt"
-        />
-    </record>
+<!--    &lt;!&ndash; Cliente 3 - Z/F Manaus - Contribuinte &ndash;&gt;-->
+<!--    <record id="l10n_br_base.res_partner_cliente3_am" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_cnt"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- Cliente 4 - Z/F Manaus - Simples Nacional -->
-    <record id="l10n_br_base.res_partner_cliente4_am" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_snc"
-        />
-    </record>
+<!--    &lt;!&ndash; Cliente 4 - Z/F Manaus - Simples Nacional &ndash;&gt;-->
+<!--    <record id="l10n_br_base.res_partner_cliente4_am" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_snc"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- Cliente 5 - Contribuinte - PE -->
-    <record id="l10n_br_base.res_partner_cliente5_pe" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_cnt"
-        />
-    </record>
+<!--    &lt;!&ndash; Cliente 5 - Contribuinte - PE &ndash;&gt;-->
+<!--    <record id="l10n_br_base.res_partner_cliente5_pe" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_cnt"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- Cliente 6 - Simples Nacional- PE -->
-    <record id="l10n_br_base.res_partner_cliente6_pe" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_snc"
-        />
-    </record>
+<!--    &lt;!&ndash; Cliente 6 - Simples Nacional- PE &ndash;&gt;-->
+<!--    <record id="l10n_br_base.res_partner_cliente6_pe" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_snc"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- Cliente 7 RS - Contribuinte -->
-    <record id="l10n_br_base.res_partner_cliente7_rs" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_cnt"
-        />
-    </record>
+<!--    &lt;!&ndash; Cliente 7 RS - Contribuinte &ndash;&gt;-->
+<!--    <record id="l10n_br_base.res_partner_cliente7_rs" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_cnt"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- Cliente 8 RS - Simples Nacional -->
-    <record id="l10n_br_base.res_partner_cliente8_rs" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_snc"
-        />
-    </record>
+<!--    &lt;!&ndash; Cliente 8 RS - Simples Nacional &ndash;&gt;-->
+<!--    <record id="l10n_br_base.res_partner_cliente8_rs" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_snc"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- Akretion Sao Paulo -->
-    <record id="l10n_br_base.res_partner_akretion" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_snn"
-        />
-    </record>
+<!--    &lt;!&ndash; Akretion Sao Paulo &ndash;&gt;-->
+<!--    <record id="l10n_br_base.res_partner_akretion" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_snn"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- Akretion Rio de Janeiro -->
-    <record id="l10n_br_base.res_partner_address_ak2" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_snn"
-        />
-    </record>
+<!--    &lt;!&ndash; Akretion Rio de Janeiro &ndash;&gt;-->
+<!--    <record id="l10n_br_base.res_partner_address_ak2" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_snn"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- Cliente 9 MG - PJ Não Contribuinte -->
-    <record id="l10n_br_base.res_partner_cliente9_mg" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_ncn"
-        />
-    </record>
+<!--    &lt;!&ndash; Cliente 9 MG - PJ Não Contribuinte &ndash;&gt;-->
+<!--    <record id="l10n_br_base.res_partner_cliente9_mg" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_ncn"-->
+<!--        />-->
+<!--    </record>-->
 
-    <!-- Cliente 10 MG - PF Não Contribuinte -->
-    <record id="l10n_br_base.res_partner_cliente10_mg" model="res.partner">
-        <field
-            name="fiscal_profile_id"
-            ref="l10n_br_fiscal.partner_fiscal_profile_pfnc"
-        />
-    </record>
+<!--    &lt;!&ndash; Cliente 10 MG - PF Não Contribuinte &ndash;&gt;-->
+<!--    <record id="l10n_br_base.res_partner_cliente10_mg" model="res.partner">-->
+<!--        <field-->
+<!--            name="fiscal_profile_id"-->
+<!--            ref="l10n_br_fiscal.partner_fiscal_profile_pfnc"-->
+<!--        />-->
+<!--    </record>-->
 
 </odoo>

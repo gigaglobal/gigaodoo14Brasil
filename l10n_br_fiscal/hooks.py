@@ -96,14 +96,14 @@ def post_init_hook(cr, registry):
             env.ref("l10n_br_base.empresa_simples_nacional", raise_if_not_found=False),
         ]
 
-        for company in companies:
-            l10n_br_fiscal_certificate_id = env["l10n_br_fiscal.certificate"]
-            company.certificate_nfe_id = l10n_br_fiscal_certificate_id.create(
-                misc.prepare_fake_certificate_vals()
-            )
-            company.certificate_ecnpj_id = l10n_br_fiscal_certificate_id.create(
-                misc.prepare_fake_certificate_vals(cert_type=CERTIFICATE_TYPE_ECNPJ)
-            )
+        # for company in companies:
+        #     l10n_br_fiscal_certificate_id = env["l10n_br_fiscal.certificate"]
+        #     company.certificate_nfe_id = l10n_br_fiscal_certificate_id.create(
+        #         misc.prepare_fake_certificate_vals()
+        #     )
+        #     company.certificate_ecnpj_id = l10n_br_fiscal_certificate_id.create(
+        #         misc.prepare_fake_certificate_vals(cert_type=CERTIFICATE_TYPE_ECNPJ)
+        #     )
 
     if tools.config["without_demo"]:
         prodfiles = []
