@@ -99,3 +99,4 @@ def cancel_api(certificate, password, vals):
             'api_code': resposta['status_code'],
             'message': retorno.message,
         }
+
