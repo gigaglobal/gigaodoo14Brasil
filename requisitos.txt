@@ -15,9 +15,9 @@ pip install email_validator
 Instalar l10n_br_base
 
 Configurar la direccion de la empresa
-configurar Inscrição Municipal:  6231942 
+configurar Inscrição Municipal (CMC):  6231942 
 configurar unidades de medida
-senha del certificado: aYTwSKcuJ3T3nl
+senha del certificado A1 e-CNPJ: aYTwSKcuJ3T3nl
 
 C:\Odoo14\python\python.exe C:\Odoo14\python\Scripts\pip.exe install erpbrasil.base
 C:\Odoo14\python\python.exe C:\Odoo14\python\Scripts\pip.exe install erpbrasil.assinatura
@@ -27,6 +27,8 @@ pip install erpbrasil.assinatura
 
 
 Observación: luego de instalar un paquete python con pip no es necesario recompilar ni reiniciar el servidor
+
+suscription code: M22091945299322
 
 
 

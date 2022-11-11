@@ -3,18 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e80c7d95-5ca3-4a57-8d02-4bc5af19fcf0" name="Changes" comment="init commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l10n_br_fiscal/demo/city_taxation_code_demo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/city_taxation_code_demo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l10n_br_fiscal/demo/company_demo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/company_demo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l10n_br_fiscal/demo/fiscal_document_demo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/fiscal_document_demo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l10n_br_fiscal/demo/fiscal_document_nfse_demo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/fiscal_document_nfse_demo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l10n_br_fiscal/demo/fiscal_operation_demo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/fiscal_operation_demo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l10n_br_fiscal/demo/icms_tax_definition_demo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/icms_tax_definition_demo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l10n_br_fiscal/demo/l10n_br_fiscal_document_email.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/l10n_br_fiscal_document_email.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l10n_br_fiscal/demo/partner_demo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/partner_demo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l10n_br_fiscal/demo/product_demo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/product_demo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l10n_br_fiscal/demo/res_users_demo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/res_users_demo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l10n_br_fiscal/demo/subsequent_operation_demo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/l10n_br_fiscal/demo/subsequent_operation_demo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l10n_br_fiscal/hooks.py" beforeDir="false" afterPath="$PROJECT_DIR$/l10n_br_fiscal/hooks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requisitos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requisitos.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +25,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Odoo14/server/odoo/addons/l10n_br_fiscal" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -67,7 +55,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667580496652</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init commit">
+      <created>1667594224448</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667594224448</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,6 +75,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
